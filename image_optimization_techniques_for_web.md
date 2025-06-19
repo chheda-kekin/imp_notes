@@ -52,8 +52,7 @@ You can use CDN to host/cache images where first time request from user served b
 
 # Context provider pattern
 
-```js
-
+```js #AppContextProvider.js
 import { createContext, useState } from "react";
 
 const AppContext =  createContext({
@@ -77,10 +76,4 @@ const AppContextProvider = (props) => {
 }
 
 export default AppContextProvider;
-
-
-
-
-
-
 ```

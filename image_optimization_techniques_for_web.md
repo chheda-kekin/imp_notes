@@ -23,3 +23,6 @@ Corresponding JSX would be,
         )
     }
 ```
+
+## Using different image sizes:
+Using different image sizes based on user's screen size & resolution

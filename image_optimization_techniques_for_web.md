@@ -79,7 +79,7 @@ export default AppContextProvider;
 ```
 
 ```js
-# App.js
+/* App.js */
 
 import React from "react";
 
@@ -98,4 +98,26 @@ const App = () => {
 }
 
 export default App;
+```
+
+```js
+
+    /* Hello.js component to consume the context value */
+
+    import { useContext } from "react";
+
+    import { AppContext } from "/context/AppContextProvider";
+
+    const Hello = () => {
+
+        const {isAuthenticated} = useContext(AppContext);
+
+        return (
+            <>
+
+            </>
+        )
+    }
+
+    export default Hello;
 ```
